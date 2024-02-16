@@ -1,0 +1,44 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: #f0f0f0;
+}
+
+.wide {
+  flex-grow: 2;
+}
+
+.extra-wide {
+  flex-grow: 4;
+}
+
+.submit {
+  background-color: #007bff;
+  color: white;
+}
+i {
+  font-size: 40px;
+}
